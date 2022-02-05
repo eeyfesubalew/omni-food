@@ -1,0 +1,14 @@
+{
+  "name": "07-omnifood-desktop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Seyfe",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.2.1"
+  }
+}
