@@ -1,3 +1,7 @@
+strong {
+  font-weight: 500;
+}
+
 .section-how {
   padding: 9.5rem 0;
 }
@@ -25,18 +29,6 @@
   grid-template-columns: repeat(4, 1fr);
 }
 
-// .section-how div:nth-child(1) {
-//   background-color: orange;
-// }
-// .section-how div:nth-child(2) {
-//   background-color: violet;
-// }
-// .section-how div:nth-child(3) {
-//   background-color: blue;
-// }
-// .section-how div:nth-child(4) {
-//   background-color: green;
-// }
 .heading__primary,
 .heading-secondary,
 .heading-teritiary {
@@ -111,4 +103,69 @@
   padding-bottom: 45%;
   background-color: #fae5d3;
   z-index: -1;
+}
+/****************/
+/*Section Meals*/
+/****************/
+
+.section-meal {
+  padding: 9.5rem 0;
+}
+.meals-img {
+  width: 100%;
+}
+.meals {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 11px;
+  overflow: hidden;
+  &-content {
+    padding: 3.2rem 4.8rem 4.8rem 4.8rem;
+  }
+  &-icon {
+    width: 2.4rem;
+    height: 2.4rem;
+    color: #cf711f;
+  }
+  &-attribute {
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+  }
+  &-title {
+    font-size: 2rem;
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 3.2rem;
+  }
+  &-attributes {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  &-tag {
+    margin-bottom: 1.2rem;
+    display: flex;
+    gap: 0.4rem;
+  }
+}
+.tag {
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: #333;
+  border-radius: 100px;
+  font-weight: 600;
+  &--vegeterian {
+    background-color: #51cf66;
+  }
+  &--vegan {
+    background-color: #94d82d;
+  }
+  &--paleo {
+    background-color: #ffd43b;
+  }
 }
