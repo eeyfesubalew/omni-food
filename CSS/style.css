@@ -135,7 +135,9 @@ strong {
     flex-direction: column;
     gap: 2rem; }
   .meals-tag {
-    margin-bottom: 1.2rem; }
+    margin-bottom: 1.2rem;
+    display: flex;
+    gap: 0.4rem; }
 
 .tag {
   display: inline-block;
