@@ -1,0 +1,65 @@
+.section-pricing {
+  padding: 9.6rem 0;
+}
+.pricing-plan {
+  border-radius: 1.1rem;
+  width: 75%;
+  &--starter {
+    justify-self: end;
+    border: 2px solid #fdf2e9;
+    padding: 4.6rem;
+  }
+  &--complete {
+    background-color: #fdf2e9;
+    padding: 4.8rem;
+    position: relative;
+    overflow: hidden;
+    &::after {
+      content: "Best Value";
+      position: absolute;
+      top: 4%;
+      right: -9%;
+      color: #333;
+      background-color: #ffd43b;
+      font-size: 1.4rem;
+      font-weight: 700;
+      text-transform: uppercases;
+      padding: 0.8rem 3.2rem;
+      transform: rotate(45deg);
+    }
+  }
+}
+.plan {
+  &-header {
+    text-align: center;
+    margin-bottom: 4.8rem;
+  }
+  &-name {
+    letter-spacing: 0.75;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #cf711f;
+    margin-bottom: 3.2rem;
+  }
+  &-price {
+    font-size: 6.2rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 1.6rem;
+    span {
+      font-size: 3rem;
+      margin-right: 0.8rem;
+      font-weight: 500;
+    }
+  }
+  &-text {
+    font-size: 1.6rem;
+    line-height: 1.6;
+    color: #6f6f6f;
+  }
+  &-sign-up {
+    text-align: center;
+    margin-top: 4.8rem;
+  }
+}
