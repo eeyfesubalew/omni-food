@@ -48,6 +48,9 @@ strong {
 .heading__primary {
   font-size: 5.2rem;
   margin-bottom: 3.2rem; }
+  @media (max-width: 84em) {
+    .heading__primary {
+      font-size: 4.4rem; } }
 
 .subheading {
   font-size: 1.8rem;
@@ -283,6 +286,9 @@ Greys:
 
 html {
   font-size: 62.5%; }
+  @media (max-width: 75em) {
+    html {
+      font-size: 56.25%; } }
 
 body {
   font-family: "Rubik", sans-serif;
@@ -301,6 +307,9 @@ body {
   gap: 9.6rem;
   align-items: center;
   grid-template-columns: repeat(2, 1fr); }
+  @media (max-width: 84em) {
+    .hero {
+      max-width: 120rem; } }
   .hero__img {
     width: 100%; }
   .hero__description {
@@ -391,6 +400,9 @@ body {
   grid-template-columns: repeat(3, 1fr);
   gap: 1.6rem;
   padding: 1.6rem; }
+  @media (max-width: 84em) {
+    .gallery {
+      grid-template-columns: repeat(2, 1fr); } }
   .gallery-img {
     display: block;
     width: 100%;

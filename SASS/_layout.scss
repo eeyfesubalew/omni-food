@@ -13,6 +13,9 @@ Greys:
 }
 html {
   font-size: 62.5%;
+  @media (max-width: 75em) {
+    font-size: 56.25%;
+  }
 }
 body {
   font-family: "Rubik", sans-serif;
@@ -31,6 +34,9 @@ body {
   gap: 9.6rem;
   align-items: center;
   grid-template-columns: repeat(2, 1fr);
+  @media (max-width: 84em) {
+    max-width: 120rem;
+  }
   &__img {
     width: 100%;
   }
@@ -136,6 +142,9 @@ body {
   grid-template-columns: repeat(3, 1fr);
   gap: 1.6rem;
   padding: 1.6rem;
+  @media (max-width: 84em) {
+    grid-template-columns: repeat(2, 1fr);
+  }
   &-img {
     display: block;
     width: 100%;
